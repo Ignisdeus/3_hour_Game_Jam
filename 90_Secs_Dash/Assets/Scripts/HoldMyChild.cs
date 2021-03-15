@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class HoldMyChild : MonoBehaviour
 {
-    public GameObject child; 
+    public GameObject child; // holds a refrice to the child 
 }

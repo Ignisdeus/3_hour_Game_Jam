@@ -11,12 +11,12 @@ public class MenuMaster : MonoBehaviour
         
     }
 
-    public string levelToLoad; 
+    public string levelToLoad; // level to load when space is pressed 
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            SceneManager.LoadScene(levelToLoad);
+        if (Input.GetKeyDown(KeyCode.Space)) { // if I press the space key 
+            SceneManager.LoadScene(levelToLoad); // load the selected level 
         }
     }
 }
